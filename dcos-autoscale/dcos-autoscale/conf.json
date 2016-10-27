@@ -1,0 +1,3 @@
+{
+	"datasource": "admin:123456@tcp(10.132.46.82:3306)/machine?charset=utf8&loc=Asia%2FShanghai"
+}
