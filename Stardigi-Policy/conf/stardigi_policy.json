@@ -1,0 +1,22 @@
+{
+	"db": {
+	    "type": "mysql",
+	    "datasource": "root:123456@tcp(10.142.21.30:3306)/machine?charset=utf8&loc=Asia%2FShanghai"
+	},
+	"prometheus" : {
+		"promethus_addr" : "10.142.21.30",
+		"promethus_port" : "9091",
+		"promethus_group" : "slave",
+		"promethus_job" : "dcos"
+	},
+	"mesos" : {
+		"mesos_urls" : "10.142.21.31;10.142.21.32;10.142.21.33"
+	},
+	"marathon" : {
+		"marathon_name" : "dcos"
+	},
+	"log" : {
+		"level" : "ERROR",
+		"file" : "/home/paas/test.log"
+	}
+}
